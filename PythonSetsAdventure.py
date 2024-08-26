@@ -14,4 +14,4 @@ our_unique_routes = our_routes.difference(competitor_routes)
 
 different_routes = our_routes.symmetric_difference(competitor_routes)
 
-print(f"Routes in common: {same_routes}\nOur unique routes: {our_unique_routes}\nAll different routes: {different_routes}")
+print(f"Routes in common: {same_routes}\nOur unique routes: {our_unique_routes}\nAll unique routes: {different_routes}")
